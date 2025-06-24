@@ -30,7 +30,7 @@ PicoSAM2 comes with an automated setup script `init.sh` to get everything ready 
 You do **not** need to manually download any datasets or checkpoints — everything is handled by the script.
 
 
-Afterwards (optional if you just want to use the compression pipeline) download the pretrained PicoSAM2 weights from this Google drive https://drive.google.com/drive/folders/17M1OurUaSvKTCNNyApNFBZpKbBjDkyN0?usp=sharing and add them to the checkpoints directory.
+Afterwards (optional if you just want to use the compression pipeline) download the pretrained PicoSAM2 weights from this [Zenodo folder](https://zenodo.org/records/15728470) and add them to the checkpoints directory.
 
 ## How to Use
 
