@@ -1,5 +1,7 @@
 # PicoSAM2
 
+### [📜 Paper](https://arxiv.org/pdf/2506.18807) 
+
 **PicoSAM2** is a minimal, prompt-based segmentation model distilled from Meta’s SAM 2.1 — purpose-built for deployment on edge devices such as the **Sony IMX500**. It replicates the core functionality of SAM2 while drastically reducing model size and computational cost, making real-time inference feasible on low-power hardware.
 
 >  ~1.2MB quantized model  
