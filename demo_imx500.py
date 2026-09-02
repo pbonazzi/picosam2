@@ -79,11 +79,7 @@ def mouse_callback(event, x, y, flags, param):
 def segmentation_callback(request: CompletedRequest):
     global latest_mask, latest_frame, last_request
 
-    frame = request.make_array("main")
-    if frame.shape[2] == 4:
-        frame = cv2.cvtColor(frame, cv2.COLOR_RGBA2BGR)
-    else:
-        frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
+    frame = request.make_array("main")  # RGB888 config → B,G,R array for cv2
 
     # Camera main stream is configured to DISPLAY_SIZE — no resize needed
     latest_frame = frame
